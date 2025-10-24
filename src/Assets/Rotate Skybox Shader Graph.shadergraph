@@ -2,7 +2,11 @@
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.GraphData",
     "m_ObjectId": "9cc39502c2004eb2a4ea258811cb7f80",
-    "m_Properties": [],
+    "m_Properties": [
+        {
+            "m_Id": "ab88a5803b5b42baaa726370ff7bbd70"
+        }
+    ],
     "m_Keywords": [],
     "m_Dropdowns": [],
     "m_CategoryData": [
@@ -37,6 +41,9 @@
         },
         {
             "m_Id": "7b6e6a4357394b678f400fa1b940df03"
+        },
+        {
+            "m_Id": "1bcaf9ad88b54d92a9988668c39923a3"
         }
     ],
     "m_GroupDatas": [],
@@ -54,6 +61,20 @@
                     "m_Id": "5a9a1d97f15a41bd8c6e0a0ce92629eb"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "1bcaf9ad88b54d92a9988668c39923a3"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "22b9761a2bfb40f0894d9c2c911b2109"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -115,8 +136,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 0.0
+            "x": -0.000006365313311107457,
+            "y": -7.1999921798706059
         },
         "m_Blocks": [
             {
@@ -277,6 +298,42 @@
     "m_Cubemap": {
         "m_SerializedCubemap": "{\"cubemap\":{\"fileID\":8900000,\"guid\":\"e7d14f3dd474b804687e8073a8cd598f\",\"type\":3}}",
         "m_Guid": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "1bcaf9ad88b54d92a9988668c39923a3",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -368.7999572753906,
+            "y": 223.19998168945313,
+            "width": 130.4000244140625,
+            "height": 33.5999755859375
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "55484fcdeaa544acac3acdcc0933d748"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "ab88a5803b5b42baaa726370ff7bbd70"
     }
 }
 
@@ -456,6 +513,19 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Normal"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CubemapMaterialSlot",
+    "m_ObjectId": "55484fcdeaa544acac3acdcc0933d748",
+    "m_Id": 0,
+    "m_DisplayName": "Cubemap",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_BareResource": false
 }
 
 {
@@ -761,6 +831,35 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.CubemapShaderProperty",
+    "m_ObjectId": "ab88a5803b5b42baaa726370ff7bbd70",
+    "m_Guid": {
+        "m_GuidSerialized": "c9f1d188-42e0-477c-9632-74b4860486b2"
+    },
+    "m_Name": "Cubemap",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Cubemap",
+    "m_DefaultReferenceName": "_Cubemap",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
+    "m_Value": {
+        "m_SerializedCubemap": "{\"cubemap\":{\"fileID\":8900000,\"guid\":\"e7d14f3dd474b804687e8073a8cd598f\",\"type\":3}}",
+        "m_Guid": ""
+    },
+    "m_Modifiable": true
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget",
     "m_ObjectId": "ad0d97dd314e4e78ab137419161fa929",
@@ -934,7 +1033,11 @@
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "d4c3819a26cc422394b76cd2181ae346",
     "m_Name": "",
-    "m_ChildObjectList": []
+    "m_ChildObjectList": [
+        {
+            "m_Id": "ab88a5803b5b42baaa726370ff7bbd70"
+        }
+    ]
 }
 
 {

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Floor Material 1
+  m_Name: Floor Material
   m_Shader: {fileID: -6465566751694194690, guid: fe6ae80339169184b8514b4139cd4e2b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -78,7 +78,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleCubemap_82d847ab881f4c7eb7abe3b3dceea48b_Cube_1_Cubemap:
-        m_Texture: {fileID: 8900000, guid: e12cf6eb4606a734d880285c155c528a, type: 3}
+        m_Texture: {fileID: 8900000, guid: 9b7d95e479cb1024e9dd3a0acdc77917, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:

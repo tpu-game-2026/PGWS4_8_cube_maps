@@ -3,7 +3,7 @@
 
 # 結果画像
 
-![結果](result.png)
+![結果]("C:\Users\cyano\Downloads\新しいフォルダー (2)\PGWS4_8_cube_maps\スクリーンショット 2026-11-12 013214.png")
 - 工夫した点：xxx
 
 # 進め方

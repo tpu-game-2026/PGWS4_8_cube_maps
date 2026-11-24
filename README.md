@@ -3,8 +3,10 @@
 
 # 結果画像
 
-![結果](result.png)
-- 工夫した点：xxx
+![結果1](result.png)
+![結果2](result2.png)
+![結果3](result3.png)
+- 工夫した点：Skyboxを回転させる仕組みを応用して、万華鏡みたいなSkyboxを作りました。
 
 # 進め方
 
